@@ -1,0 +1,81 @@
+/* General styles */
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f4f4f4;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+/* Container for all form pages */
+.container {
+	width: 400px;
+	margin-top: 50px;
+	padding: 20px;
+	background-color: white;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Form styling */
+h2 {
+	text-align: center;
+	color: #333;
+}
+
+label {
+	display: block;
+	margin-bottom: 5px;
+	font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="file"] {
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 15px;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+}
+
+button {
+	width: 100%;
+	padding: 10px;
+	background-color: #007bff;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: #0056b3;
+}
+
+/* Profile Page */
+.profile-container {
+	text-align: center;
+}
+
+.profile-photo {
+	border-radius: 50%;
+	width: 150px;
+	height: 150px;
+	margin-bottom: 20px;
+	border: 4px solid #ddd;
+}
+
+.profile-container h2 {
+	margin-bottom: 10px;
+}
+
+.profile-container p {
+	font-size: 18px;
+	color: #555;
+}
